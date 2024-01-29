@@ -50,7 +50,7 @@ export const projects = [
     image:'./images/inotebook.jpeg' ,
     tags: "React,Mongodb, JavaScript,Bootstrap,Nodejs",
     source: "https://github.com/AnasAAhmed/inotebook-gh3p-mern",
-    visit: "https://inotebook-gh3p-mern.vercel.app",
+    visit: "https://inotebook-react-mern.vercel.app",
     id: 4
   },
   {
