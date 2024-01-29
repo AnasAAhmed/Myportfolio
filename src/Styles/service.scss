@@ -1,0 +1,61 @@
+
+#services{ 
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0px;
+    margin: 2rem auto 4rem auto;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .servh2{ 
+    font: 700 2.5rem "Open sans",sans-serif;
+    border-bottom: 1px solid #292b46;
+    padding-top: 5rem;
+    
+    color: #292b46;
+    width: fit-content;
+    margin:  0rem auto;
+  }  
+.Boxes{ 
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin: 24px 0 40px;
+  }
+  .Box{
+    background: #fafafa;
+    height: 210px;
+    padding: 24px;
+    transition: all 0.3s;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .Box:hover{ 
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+ 
+  .BoxNum{ 
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: #4498e7;
+    margin-bottom: 8px;
+  
+  }
+  .BoxText{ 
+    font-style: normal;
+    text-align: center;
+    font-weight:700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 1.5rem;
+    letter-spacing: 0.02em;
+    color: rgba(5, 4, 4, 0.75)
+  }

@@ -1,0 +1,55 @@
+@import"static";
+#work{
+   background-color:$color5;
+   padding: 7rem 0 ;
+
+}
+.pp{ 
+ opacity: 0;
+ height: 70%;
+ width: 100%;
+ margin: 0;
+ font-family:  monospace;
+ position: absolute;
+ line-height: 24px;
+ color: rgb(0, 0, 0);
+background-color: aliceblue;
+ padding: 1rem;
+transition: all 0.3s; 
+}
+.pp:hover{ 
+  opacity: 100%;
+}
+
+.workbtn{ 
+  background-color:$color4;
+  color: $color5;
+  padding: 0.3rem 1rem;
+  border-radius: 15px;
+  margin:1rem 0rem;
+  border:none;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $color3;
+  }
+}
+.workactive{ 
+  background-color:$color3;
+}
+.iconbtn{ 
+  transition:all 0.3s;
+ 
+  &:hover{ 
+     transform:scale(1.2);
+    color: rgb(0, 0, 0);
+  }
+}
+.head2 {
+    font: 700 2.5rem"Open sans",sans-serif;
+    border-bottom: 3px solid white;
+    padding-top: 0.5rem;
+    width: fit-content;
+    margin:  0 auto;
+   color:white;
+  }
