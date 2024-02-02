@@ -50,7 +50,7 @@ export const projects = [
     image:'./images/inotebook.jpeg' ,
     tags: "React,Mongodb, JavaScript,Bootstrap,Nodejs",
     source: "https://github.com/AnasAAhmed/inotebook-gh3p-mern",
-    visit: "https://inotebook-react-mern.vercel.app",
+    visit: "https://inotebook-react.vercel.app",
     id: 4
   },
   {
@@ -58,8 +58,8 @@ export const projects = [
     description: "This is a code repository for the corresponding video tutorial. ",
     image:'./images/event.jpeg',
     tags: "React, Mongodb, JavaScript,Stripe,Uploadthing,Nextjs,Clerk,Tailwind,Shadcn",
-    source: "https://github.com/AnasAAhmed/event-plt",
-    visit: "https://event-plt.vercel.app",
+    source: "https://github.com/AnasAAhmed/event-platform",
+    visit: "https://event-mern-platform.vercel.app",
     id: 6
   },
   {
@@ -96,8 +96,8 @@ export const projectsagainmore = [
     description: "This is a code repository for the corresponding video tutorial. ",
     image:'./images/share.jpeg' ,
     tags: "Nextjs ,mongodb ,javascript ,tailwindcss ,next-auth",
-    source: "https://sharetopia-nextjs.vercel.app",
-    visit: " https://promtopia-three.vercel.app",
+    source: "https://github.com/AnasAAhmed/sharetopia",
+    visit: " https://sharetopia-three.vercel.app",
     id: 10
   },
 ]
