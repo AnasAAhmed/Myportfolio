@@ -35,19 +35,7 @@ const Work = () => {
   return (
     <div>
       <div id='work'>
-        <h2 className='head2'>WORK</h2>
-      <ul className="nav nav-pills d-flex justify-content-center">
-  <li className="nav-item">
-    <button className={`workbtn ${active1 ? "workactive" : ""}`} aria-current="page" onClick={onClick1}>Tab1</button>
-  </li>
-  <li className="nav-item">
-    <button className={`workbtn ${active2 ? "workactive" : ""}`} onClick={onClick2} >Tab2</button>
-  </li>
-  <li className="nav-item">
-    <button className={`workbtn ${active3 ? "workactive" : ""}`}  onClick={onClick3}>Tab3 </button>
-  </li>
-</ul>   
-            
+        <h2 className='head2'>WORK</h2>      
         <div className="container">
           <div className="row">
             {projData.map(({ title, image, tags, source, visit, id }) => (
@@ -78,7 +66,17 @@ const Work = () => {
             ))}
           </div>
         </div>
-        
+        <ul className="nav nav-pills d-flex justify-content-center">
+  <li className="nav-item">
+    <button className={`workbtn ${active1 ? "workactive" : ""}`} aria-current="page" onClick={onClick1}>Tab1</button>
+  </li>
+  <li className="nav-item">
+    <button className={`workbtn ${active2 ? "workactive" : ""}`} onClick={onClick2} >Tab2</button>
+  </li>
+  <li className="nav-item">
+    <button className={`workbtn ${active3 ? "workactive" : ""}`}  onClick={onClick3}>Tab3 </button>
+  </li>
+</ul>
       </div>
     </div>
   )
