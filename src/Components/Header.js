@@ -1,6 +1,6 @@
 import React from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
-import { MdClose } from "react-icons/md";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Header = ({ setHam, ham }) => {
     return (
@@ -10,7 +10,7 @@ const Header = ({ setHam, ham }) => {
                 <Navcontent  setHam={setHam}/>
             </nav>
             <button className={ham ? 'navbtnclose' : 'navbtn' } onClick={() => setHam(!ham)} >
-                {ham ? <MdClose /> :<GiHamburgerMenu /> }
+                {ham ? <AiOutlineClose /> :<GiHamburgerMenu /> }
             </button>
         </>
 
