@@ -75,7 +75,7 @@ nav {
 
 .navmin {
     transition: all 0.5s;
-    transform: translateY(-200%);
+    transform: translateX(-200%);
     width: 100%;
     height: 100vh;
     background-color: rgb(241, 243, 255);
@@ -134,5 +134,5 @@ nav {
 }
 
 .navmincall {
-    transform: translateY(0);
+    transform: translateX(0);
 }
