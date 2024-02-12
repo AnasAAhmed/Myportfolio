@@ -9,7 +9,7 @@ const Header = ({ setHam, ham }) => {
             <nav>
                 <Navcontent  setHam={setHam}/>
             </nav>
-            <button className={ham ? 'navbtnclose' : 'navbtn' } onClick={() => setHam(!ham)} >
+            <button className={`navbtn ${ham? "rotate":""} `} onClick={() => setHam(!ham)} >
                 {ham ? <AiOutlineClose /> :<GiHamburgerMenu /> }
             </button>
         </>
