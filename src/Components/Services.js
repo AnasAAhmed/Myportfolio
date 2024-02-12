@@ -3,7 +3,7 @@ import React from 'react'
 import { MdOutlineWeb } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
 import { FiDatabase } from "react-icons/fi";
-
+import { RiNumber4 } from "react-icons/ri";
 
 const Services = () => { 
   return (
@@ -15,12 +15,12 @@ const Services = () => {
                 <div className="Boxes">
 
                     <div className="Box" >
-                        <div className="BoxNum"> 4+</div>
+                        <div className="BoxNum"><RiNumber4 color="#008cff" size="3rem" />+</div>
 
                         <div className="BoxText">Months Experience.</div>
                     </div>
                     <div className="Box" >
-                        <div className="BoxNum"> <FaReact color="#008cff" size="3rem" /></div>
+                        <div className="BoxNum"><FaReact color="#008cff" size="3rem" /></div>
                         <div className="BoxText">React-Js UI/UX (Front-end)</div>
                     </div>
                     <div className="Box" >
