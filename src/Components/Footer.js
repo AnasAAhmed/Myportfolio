@@ -16,8 +16,6 @@ const Footer = () => {
         />
 
         <h2>Anas Ahmed</h2>
-
-        <p>Built with React, Sass ,Javascript ,Firebase & Bootstrap</p>
         <p>Created By Anas Ahmed</p>
 
     
